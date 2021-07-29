@@ -1,0 +1,31 @@
+.page-home {
+  h5 {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "product sans medium";
+    margin-bottom: 15px;
+  }
+
+  .web-carousel {
+    .carousel-indicator li {
+      background-color: gray;
+    }
+  }
+
+  .press-categories {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+
+  .store-new-product {
+    margin-top: 10px;
+  }
+}
+
+.game {
+  .jumbotron {
+    min-height: 500px;
+  }
+  margin-bottom: 30px;
+}

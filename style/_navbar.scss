@@ -1,0 +1,26 @@
+.navbar-store {
+  padding-top: 25px;
+
+  @include media-breakpoint-down(md) {
+    background-color: #fff !important;
+  }
+
+  .nav-item {
+    .nav-link {
+      @include media-breakpoint-up(lg) {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+    }
+
+    .btn {
+      background-color: #0d5798;
+      border-radius: 32px;
+    }
+  }
+
+  .navbar-fixed-top.scrolled {
+    background-color: #ffffff !important;
+    transition: background-color 200ms linear;
+  }
+}
